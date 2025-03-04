@@ -5,6 +5,7 @@ import java.sql.*;
 public class SelectExample {
     public static void main(String[] args) {
         // MySQL database connection details
+        // Easier to change if you used a property file
         String url = "jdbc:mysql://localhost:3306/exampledatabase";
         String username = "root";
         String password = "password";

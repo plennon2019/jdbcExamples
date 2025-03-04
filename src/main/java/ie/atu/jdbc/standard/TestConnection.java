@@ -9,6 +9,7 @@ public class TestConnection {
         try
         {
             // Load the driver class
+            // ideally we would use a properties file instead of hardcoding values
             Class.forName("com.mysql.cj.jdbc.Driver");
             // Create a connection to the database, hardcoding values for now.
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/exampledatabase", "root", "password");

@@ -9,7 +9,7 @@ public class InsertTransactionExample {
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/exampledatabase", "root", "password");
 
             try {
-                // Set auto-commit to false to start a transaction
+                // Set auto-commit to false to start a transaction, so the changes made are only seen by us.
                 conn.setAutoCommit(false);
 
                 // Insert a new record into the "users" table

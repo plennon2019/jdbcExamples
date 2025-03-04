@@ -11,7 +11,7 @@ public class InsertExample {
 
         try {
 
-            // Insert a new record into the "users" table
+            // Insert a new record into the "users" table using a prepared statement.
             PreparedStatement stmt = conn.prepareStatement("INSERT INTO users (username, password) VALUES (?, ?)");
             stmt.setString(1, "Des");
             stmt.setString(2, "software");
