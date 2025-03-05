@@ -1,4 +1,3 @@
---Create a database with two tables
 CREATE DATABASE IF NOT EXISTS exampledatabase;
 
 USE exampledatabase;
